@@ -1,0 +1,239 @@
+/* navbar section code goes here---------------------------------------------------------------------- */
+.navbar-nav .nav-item .nav-link{
+    font-size: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 20px;
+    color: #545b66;
+}
+.navbar-toggler{
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #e6c8c3;
+    color: #484f5b;
+}
+/* common utitlies code goes here...................................... */
+.btn-brown{
+    font-size: 16px;
+    font-weight: 500;
+    background-color:#e6c8c3 ;
+    color: #484f5b;
+    padding: 8px 16px;
+    border-radius: 0px;
+    text-transform: uppercase;
+}
+.btn-brown:focus{
+    box-shadow: 0 0 0 0.25rem #f3e8e8;
+}
+h1{
+    font-size:45px;
+    font-weight: bold;
+    color: #484f5b;
+}
+p{
+    font-size: 20px;
+    color: #525762;
+}
+@media(max-width:400px){
+    h1{
+        font-size: 35px;
+    }
+}
+.form-control{
+    background-color: #efefef;
+    border-width: 2px;
+    border-radius: 0px;
+}
+textarea{
+    resize: none;
+}
+body::-webkit-scrollbar{
+    width: 8px;
+}
+body::-webkit-scrollbar-thumb{
+    border-radius: 20px;
+   background-color: #e5ccc6;
+}
+body::-webkit-scrollbar-track{
+    background-color: #f1f1f1;
+ }
+
+
+/* balance mind section code goes here.-------------------------------------------------------------------- */
+.balance_mind_sec{
+    align-items: center;
+}
+
+
+/* pregnent woman section code goes here------------------------------------------------------------------- */
+.preg_women_sec{
+    align-items: center;
+    min-height: 600px;
+    background-image: url('../images/pregnent_woman.png');
+    background-size: cover;
+    background-repeat: no-repeat;   
+    background-position: center left;
+}
+
+
+/* program section code goes here.------------------------------------------------------------------------- */
+.program-sec{
+    justify-content: center;
+}
+.program-sec .program-item{
+   margin: 0px auto;
+   text-align: center;
+}
+.program-sec .program-item .title{
+    font-size: 20px;
+    font-weight: 500;
+    color: #484f5b;
+}
+.program-sec .program-item .text{
+    font-size: 16px;
+    color: #525762;
+}
+
+
+/* breating section code goes here------------------------------------------------------------------------ */
+.breathing-sec{
+    align-items: center;
+}
+
+
+/* join now seciton code goes here ---------------------------------------------------------------------- */
+.joinnow-sec{
+    align-items: center;
+    min-height: 600px;
+    background-image: url('../images/joinnow.png');
+    background-size: cover;
+    background-repeat: no-repeat;   
+    background-position: bottom right;
+}
+.joinnow-sec .joinnow-bg{
+    background-image: url('../images/joinusbg.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+
+
+/* gallery section code here.------------------------------------------------------------------------------ */
+.gallery-sec .gallery-card-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+@media (max-width:1199px){
+    .gallery-sec .gallery-card-wrapper{
+        justify-content: center;
+    }
+}
+.gallery-sec .gallery-card{
+    min-height: 400px;
+    width: 300px;
+    margin: 20px 15px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 8px, rgba(17, 17, 26, 0.05) 0px 8px 16px;
+}
+.gallery-sec .gallery-card .gallery-content{
+    padding: 20px;
+    text-align: center;
+}
+.gallery-sec .gallery-card .gallery-content .gallery-title{
+    font-size: 25px;
+    font-weight: 500;
+    color: #484f5b;
+}
+.gallery-sec .gallery-card .gallery-content .gallery-text{
+    font-size: 15px;
+    margin: 12px 0px 12px 0px;
+    color: #525762;
+}
+
+
+/* yoga training section code ------------------------------------------------------------------------ */
+.showreel-sec{
+    background-color: #e5ccc6;
+    align-items: center;
+}
+.showreel-sec .showreel-thumbnail{
+    position: relative;
+}
+.showreel-sec .showreel-thumbnail .play-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.showreel-sec .social-media{
+    display: flex;
+}
+.showreel-sec .social-media-icon{
+    text-decoration: none;
+    height: 40px;
+    width: 40px;
+    background: #484f5b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+
+/* footer code ---------------------------------------------------------------------------- */
+.footer{
+    background-color: #484f5b;
+    color: #cdd0d2;
+}
+.footer .title{
+    font-size: 22px;
+    color: #fff;
+    font-weight: 500;
+}
+.footer .sub-title{
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+.footer .sub-text{
+    font-size: 16px;
+    color: #cdd0d2;
+}
+.footer .footer-link{
+    text-decoration: none;
+    font-size: 16px;
+    color: #cdd0d2;
+    margin-top: 5px;
+    display: block;
+}
+.footer .copyright-text{
+    font-size: 16px;
+    color: #fff;
+}
+.footer .social-media{
+    display: flex;
+}
+.footer .social-media-icon{
+    text-decoration: none;
+    height: 30px;
+    width: 30px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #484f5b;
+    font-size: 20px;
+    margin-right: 20px;
+}
+@media (max-width:768px){
+    .footer{
+        text-align: center;
+    }
+    .footer .social-media{
+        justify-content: center;
+    }
+}
